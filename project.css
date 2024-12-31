@@ -1,0 +1,268 @@
+*{
+    font-style: italic;
+}
+/* Login page */
+.form{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border: 3px solid transparent;
+    font-size: 1rem; 
+    font-weight: bolder;
+    color: cornsilk;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2.1;
+}
+ body{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Login{
+    padding: 20%;
+    padding-right: 40%;
+    padding-top: 2%;
+    padding-left: 38%;
+}
+button{
+    border: 2px solid cornsilk;
+}
+button:hover{
+    opacity: 0.5;
+}
+
+/* Sign-up page */
+.sign-up{
+    padding: 20%;
+    padding-right: 40%;
+    padding-top: 7%;
+    padding-left: 38%;
+}
+.form1{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border: 3px solid transparent;
+    font-size: 1rem; 
+    font-weight: bolder;
+    color: gold;
+    font-size: 2cap;
+}
+.nav{
+    width:95%;
+    height: 100px;
+    text-align: center;
+    color: aqua;
+    padding-top: 1cap;
+    padding-left: 2%;
+    padding-bottom: 1cap;
+    text-shadow:3px -5px 7px crimson, -7px 9px 8px cornsilk, 5px -9px 4px gold;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+/* Home page */
+.nav1{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+.box{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid darkorange;
+    background-image: url(./bg.jpg);
+}
+.box1{
+    width: 250px;
+    height: 600px;
+    border: 2px solid springgreen;
+    margin: 3%;
+    margin-top: 3%;
+    border-radius: 10px 5px 5px 10px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1:hover{
+    border: 3px solid deeppink;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px 5px 5px 10px;
+}
+.text{
+    color: azure;
+    text-align: center;
+}
+.Card{
+    text-align: center;
+    color: lightslategray;
+    border: 2px solid transparent;
+    width: auto;
+    height: 40px;
+    font-size: x-large;
+}
+.Card:hover{
+    border: 2px solid skyblue;
+}
+.car{
+    width: 45%;
+    height: 30%;
+    align-items: center;
+    border: 2px solid transparent;
+    padding-left: 25%;
+}
+.foot{
+    width: 350px;
+    height: 350px;
+    border: 2px solid transparent;
+    margin-top: 3%;
+}
+.size{
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+}
+.icon{
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    padding-right: 3%;
+    color: gold;
+}
+.icon:hover{
+    border: 1px solid transparent;
+    border-radius: 55%;
+    background-color: black;
+}
+
+/* Catagory */
+.text1{
+    font-size: xx-large;
+    color: greenyellow;
+}
+/* .bod{
+    width: 100%;
+    height: 100%;
+    background-image: url(./bike.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+} */
+.catext{
+    color: gold;
+    text-align: center;
+}
+.boxcat{
+    width: 250px;
+    height: 600px;
+    border: 2px solid transparent;
+}
+.boxcat:hover{
+    border: 3px solid chocolate;
+}
+.m{
+    text-align: left;
+    color: azure;
+}
+
+/* about us */
+.dp{
+    width: 400px;
+    height: 500px;
+    background-image: url(./dp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10%;
+    margin-left: 20%;
+}
+.aubox{
+    width: 250px;
+    height: 350px;
+    margin-right: 35%;
+}
+.Ptext{
+    color: aqua;
+}
+.ah1{
+    color: white;
+}
+.icon1{
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    padding-right: 3%;
+    color: aqua;
+}
+.Text{
+    text-align: center;
+}
+.about{
+    width: 100%;
+    height: 150px;
+    background-color: dimgrey;
+}
+.aboutbox{
+    width: 250px;
+    height: 145px;
+    border: 2px solid darkgray;
+}
+.text2{
+    font-size: small;
+    color: lightcoral;
+}
+.mar{
+    width: 95%;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scrol{
+    width: 50%;
+    height: 100px;
+    border: 1px solid black;
+}
+.find{
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin-left: 30%;
+    text-align: center;
+}
+.search{
+    width: 700px;
+    height: 50px;
+    color: crimson;
+    border-radius: 5%;
+}
+.search1{
+    width: 800px;
+    height: fit-content;
+    align-items: center;
+    margin-left: 30%;
+}
+.tq{
+    width: 460px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 1px solid gold;
+    background-image: url(./exit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./project.css">
+</head>
+<header>
+    <div class="nav">
+        <h1>RENTAL</h1>
+    </div>
+</header>
+<body background="./bikelogo.jpg">
+    <div class="sign-up">
+    <div class="form1">
+        <h1 style="text-align: center; font-size: 5cap; color: crimson;">sign-up</h1>
+        <label>
+            <label>Email <i class="fa-solid fa-envelope"></i></label>
+            <input type="text" placeholder="Enter ur email Id">
+            <br>
+            <br>
+            <label>Password <i class="fa-solid fa-lock"></i></label>
+            <input type="password" placeholder="Enter ur password" pattern="[A-Z]{1}[a-z]{0,15}[@#$_-]{1}[0-9]{0,4}" title="Enter a vaild password.1cap,0 to 15 smalls, 1 sepcial charater,0 to 9 4 numbers">
+            <br>
+            <br>
+            <label>Repassword:</label>
+            <input type="password" placeholder="Re enter the password">
+            <br>
+            <br>
+            <label>Phone No <i class="fa-solid fa-phone"></i></label>
+            <input type="number">
+            <br>
+            <br>
+            <label>Age:</label>
+            <input type="number" placeholder="Enter ur age">
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" id="gender" name="gender" value="Female">/female
+            <input type="radio" id="gender" name="gender" value="Male">/Male
+            <br>
+            <br>
+            <button style="color: deeppink; font-size: 2cap; border: 2px solid gray;">create</button>
+        </label>
+    <p>Go to <a href="./index.html" target="_self"><i class="fa-solid fa-house icon"></i></a></p>
+    </div>
+    </div>
+</body>
+</html>
